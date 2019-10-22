@@ -1,0 +1,461 @@
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0px;
+	padding: 0;
+	background: url(images/img01.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0E4456;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-weight: normal;
+	color: #08252E;
+}
+
+h1 { font-size: 44px; }
+
+h2 { font-size: 18px; }
+
+h3 { }
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 220%;
+	text-align: justify;
+}
+
+ul, ol { }
+
+blockquote { }
+
+a { color: #842946; }
+
+a:hover { text-decoration: none; }
+
+a img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 7px 30px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 7px 0 0 30px;
+}
+
+hr { display: none; }
+
+.list1 {
+}
+
+.list1 li {
+	float: left;
+	line-height: normal;
+}
+
+.list1 li img {
+	margin: 0 30px 30px 0;
+}
+
+.list1 li.alt img {
+	margin-right: 0;
+}
+
+#wrapper {
+	margin: 0px;
+	padding: 30px 0px 0px 0px;
+}
+
+/* Header */
+
+#header-wrapper {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	width: 1000px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+/* Menu */
+
+#menu {
+	float: left;
+	width: 690px;
+	height: 60px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 40px;
+	margin-right: 4px;
+	padding: 20px 25px 0px 25px;
+	text-decoration: none;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+#menu a:hover { 
+	text-decoration: none; 
+	height: 40px;
+	padding: 20px 25px 0px 25px;
+	background: #280612;
+}
+
+
+#menu .current_page_item a {
+	height: 40px;
+	padding: 20px 25px 0px 25px;
+	background: #280612;
+	color: #FFFFFF;
+}
+
+#menu .first {
+	background: none;
+}
+/* Search */
+
+#search {
+	float: right;
+	width: 310px;
+	height: 60px;
+}
+
+#search form {
+	float: right;
+	margin: 0;
+	padding: 24px 30px 0 0;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search input {
+	float: left;
+	font: 12px Georgia, "Times New Roman", Times, serif;
+	border: none;
+}
+
+#search-text {
+	width: 200px;
+	height: 18px;
+	padding: 3px 0 0 5px;
+	border: 1px solid #333333;
+	background: #ECF9E4;
+	color: #000000;
+}
+
+#search-submit {
+	height: 21px;
+	margin-left: 10px;
+	padding: 0px 5px;
+	background: #000000;
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0px;
+	background: url(images/img04.jpg) no-repeat left bottom;
+}
+
+#page-bgtop {
+	padding: 50px 30px 0px 30px;
+	background: url(images/img05.jpg) no-repeat left top;
+}
+
+
+/** LOGO */
+
+#logo {
+	width: 1000px;
+	height: 175px;
+	margin: 0 auto;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: normal;
+
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#logo p {
+	padding-left: 22px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#logo h1 {
+	padding-left: 20px;
+	padding-top: 50px;
+	font-size: 48px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#logo h1 a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+#banner {
+	float: right;
+	margin-top: -60px;
+	padding: 0px 20px 0px 0px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 610px;
+}
+
+/* Post */
+
+.post {
+	margin-bottom: 45px;
+	border-bottom: 1px solid #DFDFDF;
+}
+
+.post .title {
+	height: 30px;
+	color: #08252E;
+}
+
+.post .title a {
+	text-decoration: none;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #08252E;
+}
+
+.post .date {
+}
+
+.post .meta {
+	margin-left: 2px;
+	padding: 2px 30px 2px 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	color: #66665E;
+}
+
+.post .meta span {
+	display: block;
+	margin-top: -10px;
+}
+
+.post .meta a { }
+
+.post .entry {
+	padding: 10px 0 30px 0;
+}
+
+.post .entry-content {
+	float: right;
+	width: 330px;
+}
+
+.post .entry-image {
+	float: left;
+	width: 280px;
+	padding-right: 20px;
+	padding-top: 6px;
+	padding-bottom: 30px;
+}
+
+.post .links a {
+	font-weight: bold;
+	color: #08252E;
+}
+
+.post .links .comments {
+}
+
+.post .links .permalink {
+	padding-left: 17px;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 300px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border-left: 1px solid #DFDFDF;
+}
+
+#sidebar ul {
+	margin: 0px 0px 0px 30px;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#sidebar li {
+	margin-bottom: 30px;
+}
+
+#sidebar li ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 12px 0px 12px 15px;
+	border-bottom: 1px solid #DFDFDF;
+	background: url(images/img09.jpg)  no-repeat left 17px;
+}
+
+#sidebar li li a {
+	font-weight: normal;
+}
+
+#sidebar li li a:hover {
+}
+
+#sidebar p {
+	line-height: 200%;
+}
+
+#sidebar h2 {
+	height: 30px;
+	font-size: 1.8em;
+	font-weight: normal;
+}
+
+#sidebar a {
+	text-align: left;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar caption {
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+#calendar table {
+	width: 100%;
+	border-collapse: collapse;
+	border-bottom: 1px solid #24130F;
+	border-left: 1px solid #24130F;
+	border-right: 1px solid #24130F;
+}
+
+#calendar thead th {
+	padding: 5px 0;
+	text-align: center;
+	border-top: 1px solid #24130F;
+	border-left: 1px solid #24130F;
+	background: #24130F;
+}
+
+#calendar tbody td {
+	padding: 5px 0;
+	text-align: center;
+	border-top: 1px solid #24130F;
+	border-left: 1px solid #24130F;
+	border-bottom: 1px solid #24130F;
+}
+
+#calendar tfoot td {
+	padding: 5px;
+	border-left: 1px solid #24130F;
+	border-bottom: 1px solid #24130F;
+}
+
+#calendar tfoot #next {
+	border-top: 1px solid #24130F;
+	text-align: right;
+}
+
+#calendar tfoot #prev {
+	border-top: 1px solid #24130F;
+}
+
+#calendar .pad {
+	border-bottom: 1px solid #24130F;
+}
+
+#calendar #today {
+	background: #24130F;
+}
+
+/* Footer */
+
+#footer-bgcontent {
+	margin: 0px;
+	padding: 0px;
+	height: 70px;
+	background: url(images/img02.jpg) repeat-x left top;
+}
+
+#footer {
+	width: 1000px;
+	height: 49px;
+	margin: 0 auto;
+	padding-top: 50px;
+	background: url(images/img03.jpg) no-repeat left top;
+}
+
+#footer p {
+	margin: 0;
+	padding-right: 30px;
+	text-align: right;
+	line-height: normal;
+	font-size: 10px;
+}
+
+#footer a {
+}
